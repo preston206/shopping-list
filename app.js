@@ -7,6 +7,7 @@ var state = {
 //add
 function addItem(state, item) {
     console.log("adding...")
+    console.log($('#shopping-list-entry').val());
     state.items.push({
         value: item, checked: false
     });
